@@ -1,4 +1,4 @@
-# mini-framework
+# mini-framework PHP
 MVC,
 Routing,
 Database Config
