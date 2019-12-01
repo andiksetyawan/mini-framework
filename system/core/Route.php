@@ -4,8 +4,12 @@ class Route{
     protected $controller = 'home';
     protected $method = 'index';
     protected $par = [];
+
     public function __construct(){
+      echo "route";
+      echo($_GET['url']);
       if (isset($_GET['url'])) {
+        echo($_GET['url']);
         $url = explode('/',$_GET['url']);
         $ctl = $url[0];
         if (file_exists('app/controllers/'.$ctl.'.php')) {
