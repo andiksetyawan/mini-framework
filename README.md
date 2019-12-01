@@ -1,6 +1,6 @@
-# mini-framework PHP APACHE
+# mini-framework PHP 
 MVC,
 Routing,
 Database Config
 <br>
-If using Nginx, you must edit your virtual host.
+Work perfectly with apache server, If using Nginx, you must edit your virtual host.
