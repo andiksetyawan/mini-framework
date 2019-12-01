@@ -1,4 +1,4 @@
 # mini-framework
-MVC
-Routing
+MVC,
+Routing,
 Database Config
